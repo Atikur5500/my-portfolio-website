@@ -4,21 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     <main>
+        <!-- Home Section -->
+        <section id="home" class="home">
+            <div class="home-content">
+                <h3>Hello, I'm</h3>
+                <h1>Rahman Mir Atikur</h1>
+                <h3>And I'm a<span> Frontend Developer</span></h3>
+                <p>I am  a passionate frontend developer working more than 6 years. I have gain much more experience to serve any position in this sector.</p>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img class="my-image" src="/images/Myself-removebg-preview.png" alt="">
+            </div>
+        </section>
 
+        <!-- About Section -->
+         
     </main>
     <footer>
 
