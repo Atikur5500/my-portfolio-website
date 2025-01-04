@@ -196,3 +196,55 @@ body {
     text-align: justify;
 }
 
+/* Services Section Design */
+.services h2 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: var(--main-color);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--secondary-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2 rem solid var(--main-color);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.05);
+}
+
+.services-box i {
+    font-size: 6rem;
+    color: var(--main-color);
+}
+
+.services-box h3 {
+    font-size: 2.6rem;
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    flex-grow: 1;
+    text-align: justify;
+    word-spacing: -.2rem;
+}
